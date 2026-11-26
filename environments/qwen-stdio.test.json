@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "Five Degrees Test": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.16.7",
+        "https://fapi.spongekit.com/mcp",
+        "42875",
+        "--transport",
+        "http-only",
+        "--host",
+        "127.0.0.1",
+        "--bind-host",
+        "127.0.0.1",
+        "--client-metadata-url",
+        "https://thecloverlab.github.io/fived-mcp/oauth/local-bridge/client.json"
+      ]
+    }
+  }
+}

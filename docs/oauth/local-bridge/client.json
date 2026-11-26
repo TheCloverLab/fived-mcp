@@ -1,0 +1,15 @@
+{
+  "client_id": "https://thecloverlab.github.io/fived-mcp/oauth/local-bridge/client.json",
+  "client_name": "Five Degrees Local MCP Bridge (Test)",
+  "redirect_uris": [
+    "http://127.0.0.1:42875/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
